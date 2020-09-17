@@ -1,0 +1,8 @@
+def getNth(head, k):
+    # Code here
+    count = 0
+    cur_node = head
+    while count != k-1:
+        count = count + 1
+        cur_node = cur_node.next
+    return cur_node.data
